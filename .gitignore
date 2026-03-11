@@ -1,0 +1,17 @@
+# 1. Ignore all files (at any depth)
+*
+
+# 2. But don't ignore directories (so we can look inside them)
+!*/
+
+# 3. White-list your source files by extension
+!*.cpp
+!*.hpp
+!*.h
+!*.java
+!*.py
+!*.md
+!*.txt
+
+# 4. Don't ignore the .gitignore itself
+!.gitignore
